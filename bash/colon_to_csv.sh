@@ -2,7 +2,7 @@
 
 
 function usage () {
-	echo "usage: ./csv_reader.sh file.txt"
+	echo "usage: ./colon_to_csv.sh file.txt"
 }
 
 
