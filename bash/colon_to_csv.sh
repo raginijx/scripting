@@ -14,6 +14,8 @@ if [ -z "${CSV_INPUT}" ]; then
 fi
 
 
+declare -a arr
+
 IFS='.'
 read -r -a arr <<< "${CSV_INPUT}"
 CSV_OUTPUT="${arr[0]}.csv"
